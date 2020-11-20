@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Programming/TickTackToe/Files.h
+string
+-
+fstream
+-
+
+C:/Programming/TickTackToe/main.cpp
+fstream
+-
+iostream
+-
+stdlib.h
+-
+Files.h
+C:/Programming/TickTackToe/Files.h
+
